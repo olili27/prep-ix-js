@@ -16,9 +16,10 @@ function takeArray(arr){
         }
         else {
             response.odds.push(value);
-            console.log(response.odds);
+            console.log(response.odds);            
         }
         
     });
+    console.log(response)
 }
 takeArray([1,2,3,4,5,6,"hello"]);
